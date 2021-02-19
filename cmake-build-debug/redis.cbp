@@ -1,0 +1,1145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="redis"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\deps\;CMake Files\deps\hiredis\;CMake Files\deps\linenoise\;CMake Files\deps\lua\;CMake Files\src\;CMake Files\src\modules\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="redis-cli">
+				<Option output="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/redis-cli.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/hiredis"/>
+					<Add directory="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/linenoise"/>
+					<Add directory="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src"/>
+					<Add directory="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/hiredis/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/Makefile&quot;  VERBOSE=1 redis-cli"/>
+					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="redis-cli/fast">
+				<Option output="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/redis-cli.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/hiredis"/>
+					<Add directory="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/linenoise"/>
+					<Add directory="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src"/>
+					<Add directory="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/hiredis/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/Makefile&quot;  VERBOSE=1 redis-cli/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="redis-server">
+				<Option output="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/redis-server.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/hiredis"/>
+					<Add directory="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/linenoise"/>
+					<Add directory="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src"/>
+					<Add directory="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/hiredis/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/Makefile&quot;  VERBOSE=1 redis-server"/>
+					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="redis-server/fast">
+				<Option output="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/redis-server.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/hiredis"/>
+					<Add directory="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/linenoise"/>
+					<Add directory="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src"/>
+					<Add directory="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/hiredis/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/Makefile&quot;  VERBOSE=1 redis-server/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hiredis-test">
+				<Option output="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/deps/hiredis/hiredis-test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/deps/hiredis"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/hiredis/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/deps/hiredis/Makefile&quot;  VERBOSE=1 hiredis-test"/>
+					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/deps/hiredis/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/deps/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/deps/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hiredis-test/fast">
+				<Option output="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/deps/hiredis/hiredis-test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/deps/hiredis"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/hiredis/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/deps/hiredis/Makefile&quot;  VERBOSE=1 hiredis-test/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/deps/hiredis/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/deps/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/deps/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hiredis">
+				<Option output="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/deps/hiredis/cyghiredis.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/deps/hiredis"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/hiredis/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/deps/hiredis/Makefile&quot;  VERBOSE=1 hiredis"/>
+					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/deps/hiredis/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/deps/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/deps/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hiredis/fast">
+				<Option output="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/deps/hiredis/cyghiredis.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/deps/hiredis"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/hiredis/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/deps/hiredis/Makefile&quot;  VERBOSE=1 hiredis/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/deps/hiredis/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/deps/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/deps/hiredis/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="linenoise">
+				<Option output="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/deps/linenoise/liblinenoise.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/deps/linenoise"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/deps/linenoise/Makefile&quot;  VERBOSE=1 linenoise"/>
+					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/deps/linenoise/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/deps/linenoise/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/deps/linenoise/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="linenoise/fast">
+				<Option output="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/deps/linenoise/liblinenoise.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/deps/linenoise"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/deps/linenoise/Makefile&quot;  VERBOSE=1 linenoise/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/deps/linenoise/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/deps/linenoise/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/deps/linenoise/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lua">
+				<Option output="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/deps/lua/liblua.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/deps/lua"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/deps/lua/Makefile&quot;  VERBOSE=1 lua"/>
+					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/deps/lua/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/deps/lua/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/deps/lua/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lua/fast">
+				<Option output="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/deps/lua/liblua.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/deps/lua"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/deps/lua/Makefile&quot;  VERBOSE=1 lua/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/deps/lua/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/deps/lua/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/deps/lua/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testmodule">
+				<Option output="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/src/modules/testmodule.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/src/modules"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/src/modules/Makefile&quot;  VERBOSE=1 testmodule"/>
+					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/src/modules/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/src/modules/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/src/modules/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testmodule/fast">
+				<Option output="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/src/modules/testmodule.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/src/modules"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/src/modules/Makefile&quot;  VERBOSE=1 testmodule/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/src/modules/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/src/modules/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/src/modules/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="helloblock">
+				<Option output="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/src/modules/helloblock.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/src/modules"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/src/modules/Makefile&quot;  VERBOSE=1 helloblock"/>
+					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/src/modules/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/src/modules/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/src/modules/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="helloblock/fast">
+				<Option output="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/src/modules/helloblock.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/src/modules"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/src/modules/Makefile&quot;  VERBOSE=1 helloblock/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/src/modules/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/src/modules/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/src/modules/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hellotype">
+				<Option output="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/src/modules/hellotype.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/src/modules"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/src/modules/Makefile&quot;  VERBOSE=1 hellotype"/>
+					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/src/modules/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/src/modules/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/src/modules/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hellotype/fast">
+				<Option output="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/src/modules/hellotype.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/src/modules"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/src/modules/Makefile&quot;  VERBOSE=1 hellotype/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/src/modules/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/src/modules/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/src/modules/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="helloworld">
+				<Option output="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/src/modules/helloworld.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/src/modules"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/src/modules/Makefile&quot;  VERBOSE=1 helloworld"/>
+					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/src/modules/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/src/modules/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/src/modules/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="helloworld/fast">
+				<Option output="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/src/modules/helloworld.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/src/modules"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/10/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/src/modules/Makefile&quot;  VERBOSE=1 helloworld/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/src/modules/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/src/modules/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j6 -f &quot;/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/cmake-build-debug/src/modules/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/hiredis/async.c">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/hiredis/async.h">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/hiredis/dict.c">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/hiredis/dict.h">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/hiredis/hiredis.c">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/hiredis/hiredis.h">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/hiredis/net.c">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/hiredis/net.h">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/hiredis/read.c">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/hiredis/read.h">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/hiredis/sds.c">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/hiredis/sds.h">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/hiredis/sockcompat.c">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/hiredis/sockcompat.h">
+			<Option target="hiredis"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/hiredis/test.c">
+			<Option target="hiredis-test"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/linenoise/linenoise.c">
+			<Option target="linenoise"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/linenoise/linenoise.h">
+			<Option target="linenoise"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/fpconv.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/fpconv.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/lapi.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/lapi.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/lauxlib.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/lauxlib.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/lbaselib.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/lcode.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/lcode.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/ldblib.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/ldebug.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/ldebug.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/ldo.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/ldo.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/ldump.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/lfunc.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/lfunc.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/lgc.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/lgc.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/linit.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/liolib.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/llex.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/llex.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/lmathlib.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/lmem.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/lmem.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/loadlib.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/lobject.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/lobject.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/lopcodes.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/lopcodes.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/loslib.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/lparser.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/lparser.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/lstate.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/lstate.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/lstring.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/lstring.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/lstrlib.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/ltable.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/ltable.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/ltablib.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/ltm.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/ltm.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/lua.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/lua.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/lua_bit.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/lua_cjson.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/lua_cmsgpack.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/lua_struct.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/luac.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/lundump.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/lundump.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/lvm.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/lvm.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/lzio.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/lzio.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/print.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/strbuf.c">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/src/strbuf.h">
+			<Option target="lua"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/acl.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/adlist.c">
+			<Option target="redis-cli"/>
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/adlist.h">
+			<Option target="redis-cli"/>
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/ae.c">
+			<Option target="redis-cli"/>
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/ae.h">
+			<Option target="redis-cli"/>
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/anet.c">
+			<Option target="redis-cli"/>
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/anet.h">
+			<Option target="redis-cli"/>
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/aof.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/bio.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/bio.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/bitops.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/blocked.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/childinfo.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/cluster.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/cluster.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/config.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/config.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/connection.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/connection.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/crc16.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/crc64.c">
+			<Option target="redis-cli"/>
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/crc64.h">
+			<Option target="redis-cli"/>
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/crcspeed.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/crcspeed.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/db.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/debug.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/defrag.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/dict.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/dict.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/endianconv.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/endianconv.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/evict.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/expire.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/geo.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/geo.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/geohash.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/geohash.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/geohash_helper.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/geohash_helper.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/gopher.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/hyperloglog.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/intset.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/intset.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/latency.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/latency.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/lazyfree.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/listpack.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/listpack.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/localtime.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/lolwut.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/lolwut.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/lolwut5.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/lolwut6.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/lzf_c.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/lzf_d.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/memtest.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/module.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/modules/helloblock.c">
+			<Option target="helloblock"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/modules/hellotype.c">
+			<Option target="hellotype"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/modules/helloworld.c">
+			<Option target="helloworld"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/modules/testmodule.c">
+			<Option target="testmodule"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/multi.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/networking.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/notify.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/object.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/pqsort.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/pqsort.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/pubsub.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/quicklist.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/quicklist.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/rand.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/rand.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/rax.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/rax.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/rdb.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/rdb.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/redis-check-aof.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/redis-check-rdb.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/redis-cli.c">
+			<Option target="redis-cli"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/release.c">
+			<Option target="redis-cli"/>
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/release.h">
+			<Option target="redis-cli"/>
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/replication.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/rio.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/rio.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/scripting.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/sds.c">
+			<Option target="redis-cli"/>
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/sds.h">
+			<Option target="redis-cli"/>
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/sentinel.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/server.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/server.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/setproctitle.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/sha1.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/sha1.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/sha256.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/sha256.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/siphash.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/slowlog.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/slowlog.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/sort.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/sparkline.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/sparkline.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/syncio.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/t_hash.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/t_list.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/t_set.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/t_stream.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/t_string.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/t_zset.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/timeout.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/tls.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/tracking.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/util.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/util.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/ziplist.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/ziplist.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/zipmap.c">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/zipmap.h">
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/zmalloc.c">
+			<Option target="redis-cli"/>
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/zmalloc.h">
+			<Option target="redis-cli"/>
+			<Option target="redis-server"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\deps\"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/hiredis/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\deps\hiredis\"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/hiredis/hiredis.pc.in">
+			<Option virtualFolder="CMake Files\deps\hiredis\"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/linenoise/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\deps\linenoise\"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/deps/lua/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\deps\lua\"/>
+		</Unit>
+		<Unit filename="/cygdrive/d/project/source-learn/redis-6.0.10/redis-6.0.10/src/modules/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\modules\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

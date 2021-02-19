@@ -1,0 +1,1 @@
+/usr/bin/cc -g   -shared -Wl,--enable-auto-import -o helloblock.so -Wl,--out-implib,libhelloblock.dll.a -Wl,--major-image-version,0,--minor-image-version,0 CMakeFiles/helloblock.dir/helloblock.c.o 
